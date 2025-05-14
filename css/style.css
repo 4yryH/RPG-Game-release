@@ -1,0 +1,122 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto;
+  padding: 24px;
+  max-width: 1024px;
+  width: 100%;
+}
+.page__header {
+  text-align: center;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 24px 8px;
+}
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px;
+}
+.choices__title {
+  text-align: center;
+}
+.choices__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.choices__button {
+  width: 100%;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.chapter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 24px 8px;
+  position: relative;
+}
+.chapter__battle-enemy {
+  position: absolute;
+  top: -150px;
+  right: 0;
+}
+.chapter__choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.chapter__choices-button {
+  width: 100%;
+}
+.preamble {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 24px 8px;
+  gap: 8px;
+}
+@font-face {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../fonts/oswald/oswaldregular.woff2") format("woff2"), url("../../fonts/oswald/oswaldregular.woff") format("woff");
+}
+@font-face {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../../fonts/oswald/oswaldmedium.woff2") format("woff2"), url("../../fonts/oswald/oswaldmedium.woff") format("woff");
+}
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../../fonts/arial/ArialRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
